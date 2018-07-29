@@ -1,16 +1,22 @@
 package championsLeagueTeamGenerator;
 import java.util.HashMap;
+import java.util.Random;
 import java.util.Map;
 import java.util.ArrayList;
 import java.util.Collections;
+
 public class topTier extends GroupStages {
+	static int high = 9;
+	static int low = 1;
+	static int test;
 	
 	public static ArrayList <Integer> x = new ArrayList <Integer>();
 	public static HashMap <Integer, String> xx = new HashMap();
 
 	
 	public static void firstPot() {
-		
+	
+
 		x.add(1);
 		x.add(2);
 		x.add(3);
@@ -19,9 +25,8 @@ public class topTier extends GroupStages {
 		x.add(6);
 		x.add(7);
 		x.add(8);
-		
 		Collections.shuffle(x);
-		
+	
 	xx.put(x.get(0), "Manchester United");
 	xx.put(x.get(1), "Barcelona");
 	xx.put(x.get(2), "Real Madrid");
