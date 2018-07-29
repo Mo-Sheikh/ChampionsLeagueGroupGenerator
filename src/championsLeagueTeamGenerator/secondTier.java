@@ -12,7 +12,7 @@ public class secondTier {
 
 	
 	
-	public void firstPot() {
+	public static void firstPot() {
 		
 		x.add(1);
 		x.add(2);
@@ -35,7 +35,7 @@ public class secondTier {
 	xx.put(x.get(6), "Roma");
 	xx.put(x.get(7), "Manchester City");
 	
-	System.out.println(xx);
+
 	
 	}
 	

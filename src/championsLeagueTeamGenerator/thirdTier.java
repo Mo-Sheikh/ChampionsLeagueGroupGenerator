@@ -12,7 +12,7 @@ public class thirdTier {
 
 	
 	
-	public void firstPot() {
+	public static void firstPot() {
 		
 		x.add(1);
 		x.add(2);
@@ -35,7 +35,7 @@ public class thirdTier {
 	xx.put(x.get(6), "Ludogorets Razgrad");
 	xx.put(x.get(7), "Shakhtar Donetsk");
 	
-	System.out.println(xx);
+
 	
 	}
 	

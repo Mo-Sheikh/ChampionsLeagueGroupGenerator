@@ -12,7 +12,7 @@ public class fourthTier {
 
 	
 	
-	public void firstPot() {
+	public static void firstPot() {
 		
 		x.add(1);
 		x.add(2);
@@ -35,7 +35,7 @@ public class fourthTier {
 	xx.put(x.get(6), "Feyenoord");
 	xx.put(x.get(7), "Maribor");
 	
-	System.out.println(xx);
+
 	
 	}
 	

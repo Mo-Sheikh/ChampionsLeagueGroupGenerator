@@ -8,8 +8,6 @@ public class topTier extends GroupStages {
 	public static ArrayList <Integer> x = new ArrayList <Integer>();
 	public static HashMap <Integer, String> xx = new HashMap();
 
-
-	
 	
 	public static void firstPot() {
 		
@@ -22,7 +20,6 @@ public class topTier extends GroupStages {
 		x.add(7);
 		x.add(8);
 		
-		
 		Collections.shuffle(x);
 		
 	xx.put(x.get(0), "Manchester United");
@@ -34,7 +31,7 @@ public class topTier extends GroupStages {
 	xx.put(x.get(6), "Chelsea");
 	xx.put(x.get(7), "Liverpool");
 	
-	System.out.println(xx);
+	
 	
 	}
 	
