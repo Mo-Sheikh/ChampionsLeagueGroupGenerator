@@ -1,12 +1,9 @@
-package championsLeagueTeamGenerator;
+
 import java.util.HashMap;
-import java.util.ArrayList;
-import java.util.Collection;
+
 
 public class GroupStages {
-	
-	
-	
+
 
 	public static HashMap <Integer, String> groupA = new HashMap<Integer, String>();
 	public static HashMap <Integer, String> groupB = new HashMap<Integer, String>();
@@ -17,13 +14,21 @@ public class GroupStages {
 	public static HashMap <Integer, String> groupG = new HashMap<Integer, String>();
 	public static HashMap <Integer, String> groupH = new HashMap<Integer, String>();
 	
+
+		
+
+	
 	
 	public static void groupOne() {
-		//needs to be initialised before you can use it.
+		
+		
 		topTier.firstPot();
 		secondTier.firstPot();
 		thirdTier.firstPot();
 		fourthTier.firstPot();
+		
+		//needs to be initialised before you can use it.
+		
 		
 		groupA.put(1, topTier.xx.get(1));
 		groupA.put(2, secondTier.xx.get(1));

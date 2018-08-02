@@ -1,17 +1,15 @@
-package championsLeagueTeamGenerator;
+
 import java.util.HashMap;
-import java.util.Random;
-import java.util.Map;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class topTier extends GroupStages {
+public class topTier {
 	static int high = 9;
 	static int low = 1;
 	static int test;
 	
 	public static ArrayList <Integer> x = new ArrayList <Integer>();
-	public static HashMap <Integer, String> xx = new HashMap();
+	public static HashMap <Integer, String> xx = new HashMap <Integer, String>();
 
 	
 	public static void firstPot() {

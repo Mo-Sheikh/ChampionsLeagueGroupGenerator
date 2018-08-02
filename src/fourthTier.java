@@ -1,12 +1,12 @@
-package championsLeagueTeamGenerator;
+
 import java.util.HashMap;
-import java.util.Map;
+
 import java.util.ArrayList;
 import java.util.Collections;
-public class fourthTier extends GroupStages {
+public class fourthTier {
 	
 	public static ArrayList <Integer> x = new ArrayList <Integer>();
-	public static HashMap <Integer, String> xx = new HashMap();
+	public static HashMap <Integer, String> xx = new HashMap <Integer, String>();
 	int high = 9;
 	int low = 1;
 
